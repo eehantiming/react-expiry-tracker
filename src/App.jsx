@@ -35,7 +35,9 @@ function App() {
 
 import "./card.css"
 import CardList from './CardLists'
-
+/**
+* Interfaces with database. Decides which data to display.
+*/
 function NewApp(){
     // Read from database
     const datas = [ //TODO

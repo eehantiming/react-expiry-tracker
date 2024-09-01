@@ -1,8 +1,8 @@
 import Card from "./Card"
 /**
-* This component renders expired cards on top of the rest.
+* This component renders the provided datas, with expired cards on top of the rest.
 *
-* @param {Array} datas Objects of image, name and expiry.
+* @param {Array} datas Objects with keys image, name and expiry.
 */
 function CardList(props){ 
     const expired = props.datas.filter(data => new Date(data.expiry).getTime() < Date.now())

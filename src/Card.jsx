@@ -1,3 +1,10 @@
+/**
+* Each card represents a single object to display.
+*
+* @param {String} name 
+* @param {} image 
+* @param {String} expiry //TODO: use Date instead of string?
+*/
 function Card(props){
     return(
         <div className="card">
